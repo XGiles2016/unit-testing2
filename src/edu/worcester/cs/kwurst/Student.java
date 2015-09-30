@@ -122,6 +122,9 @@ public class Student
         return gpa;
     }
     
+    public void setGpa(double gpa){
+        this.gpa = gpa;
+    }
     // setCurrentEarnedCr() has been removed. This is now calculated when courses are added
     
     /**
@@ -131,6 +134,9 @@ public class Student
      */
     public int getCurrentEarnedCr() {
         return currentEarnedCr;
+    }
+    public void setCurrentEarnedCr(int credits){
+        currentEarnedCr = credits;
     }
     
     // setAnticipatedAdditionalCr() has been removed. This is now calculated when courses are added
